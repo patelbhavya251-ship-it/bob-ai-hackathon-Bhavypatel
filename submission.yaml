@@ -40,11 +40,11 @@ submission:
 
 ---
   tech_stack:
-    languages: []                      # REQUIRED — e.g., ["Python", "TypeScript"]
-    frameworks: []                     # e.g., ["FastAPI", "React"]
-    ibm_technologies: []               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
-    databases: []                      # e.g., ["PostgreSQL", "Redis"]
-    other: []                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
+    languages: [c++]                      # REQUIRED — e.g., ["Python", "TypeScript"]
+    frameworks: [c++ standard libarary]                     # e.g., ["FastAPI", "React"]
+    ibm_technologies: [IBM BOMB]               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
+    databases: [SQLite]                      # e.g., ["PostgreSQL", "Redis"]
+    other: [git , github ]                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
 
   what_we_are_most_proud_of: >         # Optional but recommended — guides judges to your best work
     We are most proud of building a simple AI-assisted logistics solution that can identify shipments affected by disruptions and recommend alternative routes. The project focuses on helping logistics teams make faster and smarter decisions during supply chain disruptions.
