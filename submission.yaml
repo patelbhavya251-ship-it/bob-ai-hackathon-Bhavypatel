@@ -1,69 +1,81 @@
 # =============================================================================
 # HACKATHON SUBMISSION METADATA
 # =============================================================================
-# Instructions:
-#   - Fill in ALL required fields (marked with # REQUIRED)
-#   - Optional fields can be left as empty strings ""
-#   - Do NOT rename this file — the evaluation pipeline reads it by name
-#   - Use double quotes around all string values 
-# =============================================================================
 
 team:
-  name: "bhavy patel"                             # REQUIRED — e.g., "Orion Squad"
-  track: "ai"                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
+  name: "bhavy patel"
+  track: "AI"
   lead:
-    name: "bhavy patel"                           # REQUIRED — e.g., "Alice Chen"
-    email: "26dcs075@charusat.edu.in"                          # REQUIRED — e.g., "alice.chen@ibm.com"
+    name: "bhavy patel"
+    email: "26dcs075@charusat.edu.in"
   members:
-    - name: "kathan patel"                         # REQUIRED — Team member 1
+    - name: "kathan patel"
       email: "kathanpatelp37@gmail.com"
-    - name: "jenish patel"                         # Add more members by copying the two lines above
+    - name: "jenish patel"
       email: "jenishpatel1526@gmail.com"
     - name: "aditya shah"
       email: "adityarshah2007@gmail.com"
 
 submission:
-  title: "ShipGuard AI"                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
+  title: "ShipGuard AI"
 
-  problem_statement: >                 # REQUIRED — 1-3 sentences. What problem? Who has it?
-   Supply chain disruptions such as bad weather, port strikes, traffic, and geopolitical events can cause shipment delays and increase costs. Logistics teams often struggle to quickly identify affected shipments and choose the best alternative routes, which can lead to delivery delays, inefficient fleet usage, and financial losses. Our project aims to help logistics teams make faster and smarter decisions during such disruptions.
+  problem_statement: >
+    Supply chain disruptions such as bad weather, port strikes, traffic,
+    and geopolitical events can cause shipment delays and increase costs.
+    Logistics teams often struggle to quickly identify affected shipments
+    and choose suitable alternative routes, which can lead to delivery
+    delays, inefficient fleet usage, and financial losses. Our project aims
+    to help logistics teams make faster and smarter decisions during such
+    disruptions.
 
-  solution_summary: >                  # REQUIRED — 1-3 sentences. What did you build?
-    ShipGuard AI is an AI-powered logistics assistant that analyzes shipment, route, fleet, and disruption data to identify shipments at risk. It recommends alternative routes or carriers, highlights affected shipments, and provides clear risk information to help logistics teams make faster decisions, reduce delays, and improve fleet utilization.
-- - -
-  key_features:                        # REQUIRED — List 3 to 5 specific features you implemented
-    **Shipment Risk Detection:** Identifies shipments affected by supply chain disruptions.
-- **Disruption Analysis:** Analyzes events such as bad weather, port strikes, traffic, and geopolitical disruptions.
-- **Alternative Route Recommendation:** Suggests alternative routes or carriers for affected shipments.
-- **Fleet Utilization:** Identifies overloaded and underutilized fleet assets.
-- **AI Decision Support:** Provides clear recommendations to help logistics teams make faster decisions.
+  solution_summary: >
+    ShipGuard AI is a logistics assistant that analyzes shipment delay,
+    temperature, and disruption data to identify shipments at risk. It
+    calculates a risk score, classifies the shipment as LOW, MEDIUM, or HIGH,
+    and provides recommendations such as rerouting or contacting an
+    alternate carrier.
 
----
+  key_features:
+    - "Shipment Risk Detection: Identifies shipments affected by disruptions."
+    - "Disruption Analysis: Analyzes events such as port strikes, storms, road blocks, and carrier delays."
+    - "Risk Scoring: Calculates a risk score based on delay, temperature, and disruption."
+    - "Risk Classification: Classifies shipments as LOW, MEDIUM, or HIGH risk."
+    - "Action Recommendations: Suggests actions such as rerouting or using an alternate carrier."
+
   tech_stack:
-    languages: [c++]                      # REQUIRED — e.g., ["Python", "TypeScript"]
-    frameworks: [c++ standard libarary]                     # e.g., ["FastAPI", "React"]
-    ibm_technologies: [IBM BOMB]               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
-    databases: [SQLite]                      # e.g., ["PostgreSQL", "Redis"]
-    other: [git , github ]                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
+    languages:
+      - "C++"
+    frameworks:
+      - "C++ Standard Library"
+    ibm_technologies: []
+    databases: []
+    other:
+      - "Git"
+      - "GitHub"
+      - "GitHub Actions"
 
-  what_we_are_most_proud_of: >         # Optional but recommended — guides judges to your best work
-    We are most proud of building a simple AI-assisted logistics solution that can identify shipments affected by disruptions and recommend alternative routes. The project focuses on helping logistics teams make faster and smarter decisions during supply chain disruptions.
+  what_we_are_most_proud_of: >
+    We are most proud of building a simple logistics decision-support
+    prototype that identifies shipment risks and provides practical
+    recommendations. The project focuses on helping logistics teams make
+    faster and smarter decisions during supply chain disruptions.
 
-  known_limitations: >                 # Optional but recommended — be honest about gaps
+  known_limitations: >
     - The current prototype uses sample shipment and disruption data.
-- Route recommendations are based on predefined logic and may not represent real-time traffic or weather conditions.
-- The C++ prototype is designed as a demonstration and is not yet connected to production logistics systems.
----
+    - Route recommendations are based on predefined logic and do not represent
+      real-time traffic or weather conditions.
+    - The C++ prototype is designed as a demonstration and is not yet connected
+      to production logistics systems.
 
 # =============================================================================
 # ARTIFACT LOCATIONS
-# These paths are relative to the repo root. Only change if you moved files.
 # =============================================================================
+
 artifacts:
   source_code: "src/"
   setup_guide: "docs/setup-guide.md"
   architecture_doc: "docs/architecture.md"
-  demo_video: "demo/demo-video-link.txt"   # URL to hosted video (YouTube, Loom, Box)
-  live_demo: "demo/live-demo-url.txt"      # URL to deployed demo (optional)
+  demo_video: "demo/demo-video-link.txt"
+  live_demo: "demo/live-demo-url.txt"
   screenshots: "demo/screenshots/"
   presentation: "presentation/"
