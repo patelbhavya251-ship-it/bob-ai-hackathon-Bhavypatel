@@ -9,37 +9,36 @@
 # =============================================================================
 
 team:
-  name: ""                             # REQUIRED — e.g., "Orion Squad"
-  track: ""                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
+  name: "bhavy patel"                             # REQUIRED — e.g., "Orion Squad"
+  track: "ai"                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
   lead:
-    name: ""                           # REQUIRED — e.g., "Alice Chen"
-    email: ""                          # REQUIRED — e.g., "alice.chen@ibm.com"
+    name: "bhavy patel"                           # REQUIRED — e.g., "Alice Chen"
+    email: "26dcs075@charusat.edu.in"                          # REQUIRED — e.g., "alice.chen@ibm.com"
   members:
-    - name: ""                         # REQUIRED — Team member 1
-      email: ""
-    - name: ""                         # Add more members by copying the two lines above
-      email: ""
-    - name: ""
-      email: ""
+    - name: "kathan patel"                         # REQUIRED — Team member 1
+      email: "kathanpatelp37@gmail.com"
+    - name: "jenish patel"                         # Add more members by copying the two lines above
+      email: "jenishpatel1526@gmail.com"
+    - name: "aditya shah"
+      email: "adityarshah2007@gmail.com"
 
 submission:
-  title: ""                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
+  title: "ShipGuard AI"                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
 
   problem_statement: >                 # REQUIRED — 1-3 sentences. What problem? Who has it?
-    Replace this text with a concise description of the real-world problem
-    your project addresses and who experiences it.
+   Supply chain disruptions such as bad weather, port strikes, traffic, and geopolitical events can cause shipment delays and increase costs. Logistics teams often struggle to quickly identify affected shipments and choose the best alternative routes, which can lead to delivery delays, inefficient fleet usage, and financial losses. Our project aims to help logistics teams make faster and smarter decisions during such disruptions.
 
   solution_summary: >                  # REQUIRED — 1-3 sentences. What did you build?
-    Replace this text with a clear description of your solution
-    and how it addresses the problem above.
-
+    ShipGuard AI is an AI-powered logistics assistant that analyzes shipment, route, fleet, and disruption data to identify shipments at risk. It recommends alternative routes or carriers, highlights affected shipments, and provides clear risk information to help logistics teams make faster decisions, reduce delays, and improve fleet utilization.
+- - -
   key_features:                        # REQUIRED — List 3 to 5 specific features you implemented
-    - ""                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
-    - ""
-    - ""
-    - ""                               # optional 4th
-    - ""                               # optional 5th
+    **Shipment Risk Detection:** Identifies shipments affected by supply chain disruptions.
+- **Disruption Analysis:** Analyzes events such as bad weather, port strikes, traffic, and geopolitical disruptions.
+- **Alternative Route Recommendation:** Suggests alternative routes or carriers for affected shipments.
+- **Fleet Utilization:** Identifies overloaded and underutilized fleet assets.
+- **AI Decision Support:** Provides clear recommendations to help logistics teams make faster decisions.
 
+---
   tech_stack:
     languages: []                      # REQUIRED — e.g., ["Python", "TypeScript"]
     frameworks: []                     # e.g., ["FastAPI", "React"]
@@ -48,12 +47,13 @@ submission:
     other: []                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
 
   what_we_are_most_proud_of: >         # Optional but recommended — guides judges to your best work
-    Replace with what aspect of the submission you consider strongest
-    and want judges to pay special attention to.
+    We are most proud of building a simple AI-assisted logistics solution that can identify shipments affected by disruptions and recommend alternative routes. The project focuses on helping logistics teams make faster and smarter decisions during supply chain disruptions.
 
   known_limitations: >                 # Optional but recommended — be honest about gaps
-    Replace with any known limitations, incomplete features,
-    or shortcuts taken due to time constraints.
+    - The current prototype uses sample shipment and disruption data.
+- Route recommendations are based on predefined logic and may not represent real-time traffic or weather conditions.
+- The C++ prototype is designed as a demonstration and is not yet connected to production logistics systems.
+---
 
 # =============================================================================
 # ARTIFACT LOCATIONS
