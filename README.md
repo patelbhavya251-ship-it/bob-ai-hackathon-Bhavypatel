@@ -1,4 +1,4 @@
-# 🚀 [Your Project Title Here]
+ 🚢 ShipGuard AI
 
 > ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
 
@@ -8,36 +8,31 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
-| **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Name** | [BHAVY PATEL] |
+| **Track** | [AI ] |
+| **Team Lead** | [bhavy  rakeshkumar patel] — [26dcs075@charusat.edu.in] |
+| **Members** | [kathan patel], [jenish patel], [aditya shah ] |
 
 ---
 
 ## 🎯 Problem Statement
 
-> In 2–3 sentences: What problem does your project solve? Who experiences this problem?
-
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+Supply chain disruptions such as bad weather, port strikes, traffic, and geopolitical events can cause shipment delays and increase costs. Logistics teams often struggle to quickly identify affected shipments and choose the best alternative routes, which can lead to delivery delays, inefficient fleet usage, and financial losses. Our project aims to help logistics teams make faster and smarter decisions during such disruptions.
 
 ---
 
 ## 💡 Solution
 
-> In 2–3 sentences: What did you build? How does it solve the problem above?
-
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
-
----
+ShipGuard AI is an AI-powered logistics assistant that analyzes shipment, route, fleet, and disruption data to identify shipments at risk. It recommends alternative routes or carriers, highlights affected shipments, and provides clear risk information to help logistics teams make faster decisions, reduce delays, and improve fleet utilization.
+- - -
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
+- **Shipment Risk Detection:** Identifies shipments affected by supply chain disruptions.
+- **Disruption Analysis:** Analyzes events such as bad weather, port strikes, traffic, and geopolitical disruptions.
+- **Alternative Route Recommendation:** Suggests alternative routes or carriers for affected shipments.
+- **Fleet Utilization:** Identifies overloaded and underutilized fleet assets.
+- **AI Decision Support:** Provides clear recommendations to help logistics teams make faster decisions.
 
 ---
 
@@ -45,18 +40,18 @@
 
 | Category | Technologies |
 |---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+| **Languages** | [e.g., c++] |
+| **Frameworks** | [e.g., c++ standarad libarary] |
+| **IBM Technologies** | [e.g., IBM Bob] |
+| **Databases** | [e.g., SQLite] |
+| **Other** | [e.g., GITHUB,GITHUB DESKTOP,VS code ] |
 
 ---
 
 ## 📁 Repository Structure
 
 ```
-├── src/                  # All source code
+├── src/main.cpp                  # All source code
 ├── docs/                 # Written documentation
 │   ├── problem-statement.md
 │   ├── solution-overview.md
@@ -108,14 +103,52 @@ cp .env.example .env
 
 > Be honest — judges appreciate transparency over overclaiming.
 
+- - The current prototype uses sample shipment and disruption data.
+- Route recommendations are based on predefined logic and may not represent real-time traffic or weather conditions.
+- The C++ prototype is designed as a demonstration and is not yet connected to production logistics systems.
+---
+
+## 🏅 What We're Most Proud Of
+
+We are most proud of building a simple AI-assisted logistics solution that can identify shipments affected by disruptions and recommend alternative routes. The project focuses on helping logistics teams make faster and smarter decisions during supply chain disruptions.
+
+---
+# 1. Clone the repo
+git clone https://github.com/[bob-ai-hackathon-BhavyaPatel].git
+cd [bob-ai-hackathon-BhavyaPatel]
+
+# 2. Install dependencies
+[your install command here]
+
+# 3. Configure environment
+cp .env.example .env
+# Edit .env with your values
+
+# 4. Run the project
+[your run command here]
+```
+
+---
+
+## 🖥️ Demo
+
+| Artifact | Link |
+|---|---|
+| 📹 Demo Video | [See demo/demo-video-link.txt](demo/demo-video-link.txt) |
+| 🌐 Live Demo | [See demo/live-demo-url.txt](demo/live-demo-url.txt) |
+| 🖼️ Screenshots | [See demo/screenshots/](demo/screenshots/) |
+| 📊 Presentation | [See presentation/slides.pdf](presentation/) |
+
+---
+
+## ⚠️ Known Limitations
+
+> Be honest — judges appreciate transparency over overclaiming.
+
 - [Limitation 1: e.g., "Authentication is mocked — not production-ready"]
 - [Limitation 2: e.g., "Only tested on Chrome"]
 - [Limitation 3: e.g., "Feature X is scaffolded but not fully implemented"]
 
 ---
 
-## 🏅 What We're Most Proud Of
 
-[Tell the judges what part of your submission is strongest and worth paying close attention to.]
-
----
