@@ -184,7 +184,7 @@ your project:
 ### Web Application
 ```
 src/
-  backend/        ← API server code
+  backend/        ← c++
   frontend/       ← UI code
   shared/         ← Shared utilities/types
 ```
